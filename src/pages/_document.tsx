@@ -4,18 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WC67D6XEE7" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){window.dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-WC67D6XEE7');
-            `,
-          }}
-        />
+        <meta name="google-site-verification" content="pNo1PMSDTtaRZqt57HMVD_fOVFGs1z4dUK-9J6qbrck" />
       </Head>
       <body className="antialiased">
         <Main />
